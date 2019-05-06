@@ -13,6 +13,8 @@
 		8A1637452280797000AD3E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1637432280797000AD3E1E /* Main.storyboard */; };
 		8A1637472280797100AD3E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A1637462280797100AD3E1E /* Assets.xcassets */; };
 		8A16374A2280797100AD3E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1637482280797100AD3E1E /* LaunchScreen.storyboard */; };
+		8A16375D22808F6300AD3E1E /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A16375B22808F6300AD3E1E /* earth.jpg */; };
+		8A16375E22808F6300AD3E1E /* head.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A16375C22808F6300AD3E1E /* head.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8A1637462280797100AD3E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A1637492280797100AD3E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A16374B2280797100AD3E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A16375B22808F6300AD3E1E /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
+		8A16375C22808F6300AD3E1E /* head.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				8A16373D2280797000AD3E1E /* AppDelegate.swift */,
+				8A16375B22808F6300AD3E1E /* earth.jpg */,
+				8A16375C22808F6300AD3E1E /* head.jpg */,
 				8A16373F2280797000AD3E1E /* art.scnassets */,
 				8A1637412280797000AD3E1E /* ViewController.swift */,
 				8A1637432280797000AD3E1E /* Main.storyboard */,
@@ -126,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A1637402280797000AD3E1E /* art.scnassets in Resources */,
+				8A16375E22808F6300AD3E1E /* head.jpg in Resources */,
+				8A16375D22808F6300AD3E1E /* earth.jpg in Resources */,
 				8A16374A2280797100AD3E1E /* LaunchScreen.storyboard in Resources */,
 				8A1637472280797100AD3E1E /* Assets.xcassets in Resources */,
 				8A1637452280797000AD3E1E /* Main.storyboard in Resources */,
