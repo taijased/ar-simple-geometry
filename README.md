@@ -57,3 +57,8 @@ scene.rootNode.addChildNode(earthNode)
 ```
 
 
+### Add default light figure
+
+```
+ sceneView.autoenablesDefaultLighting = true
+```
