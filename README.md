@@ -1,4 +1,4 @@
-# Geometry 
+# Geometry Figure
 
 
 ## SCNText
