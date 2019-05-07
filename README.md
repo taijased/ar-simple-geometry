@@ -5,15 +5,15 @@
 
 ```
 let textGeometry = SCNText(string: "Это кубик", extrusionDepth: 2.0)
-        let textMaterial = SCNMaterial()
+let textMaterial = SCNMaterial()
 
-        textMaterial.diffuse.contents = UIColor.white
+textMaterial.diffuse.contents = UIColor.white
 
-        let textNode = SCNNode(geometry: textGeometry)
-        textNode.geometry?.materials = [textMaterial]
-        textNode.scale = SCNVector3(0.005, 0.005, 0.005)
-        textNode.position = SCNVector3(0,0.2,-1.0)
-        scene.rootNode.addChildNode(textNode)
+let textNode = SCNNode(geometry: textGeometry)
+textNode.geometry?.materials = [textMaterial]
+textNode.scale = SCNVector3(0.005, 0.005, 0.005)
+textNode.position = SCNVector3(0,0.2,-1.0)
+scene.rootNode.addChildNode(textNode)
 ```
 
 
@@ -44,16 +44,16 @@ let textGeometry = SCNText(string: "Это кубик", extrusionDepth: 2.0)
 ## SCNMaterial with texture
 
 ```
- let earthGeometry = SCNSphere(radius: 0.1)
-        let earthMaterial = SCNMaterial()
-        
-        earthMaterial.diffuse.contents = UIImage(named: "earth.jpg")
-        let earthNode = SCNNode(geometry: earthGeometry)
-        earthNode.geometry?.materials = [earthMaterial]
-        
-        earthNode.position = SCNVector3(-0.5, 0, -1.0)
-        
-        scene.rootNode.addChildNode(earthNode)
+let earthGeometry = SCNSphere(radius: 0.1)
+let earthMaterial = SCNMaterial()
+
+earthMaterial.diffuse.contents = UIImage(named: "earth.jpg")
+let earthNode = SCNNode(geometry: earthGeometry)
+earthNode.geometry?.materials = [earthMaterial]
+
+earthNode.position = SCNVector3(-0.5, 0, -1.0)
+
+scene.rootNode.addChildNode(earthNode)
 ```
 
 
